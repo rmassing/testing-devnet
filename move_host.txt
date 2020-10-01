@@ -1,0 +1,13 @@
+./bootstrap.py -l user -p password --unmanaged\
+ -s ite-mtv5-sat01a.cisco.com \
+ -o CVE \
+ -L "MTV5 DataCenter" \
+ -g "RHEL 7.8/MTV5" \
+ -a rhel7 --force
+
+./bootstrap.py -l user -p password --unmanaged\
+ -s ite-mtv5-sat01a.cisco.com \
+ -o CVE \
+ -L "MTV5 DataCenter" --force
+
+ unmanaged
